@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intern</string>
+    <string name="editText_default">Please enter a number</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="customA" format="integer" />
+        <attr name="customR" format="integer" />
+        <attr name="customG" format="integer" />
+        <attr name="customB" format="integer" />
+        <attr name="polygon" format="integer" />
+    </declare-styleable>
+</resources>
