@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Task_two_picture:"
+        android:textColor="#159" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="单击以更换图片"
+        android:textColor="#918" />
+
+    <ImageView
+        android:id="@+id/picture_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.99"
+        android:src="@drawable/background"
+        android:onClick="picture_chose"/>
+</LinearLayout>

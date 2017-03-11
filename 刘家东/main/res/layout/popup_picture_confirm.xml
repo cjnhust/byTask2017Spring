@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empty_photo">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片选择"
+        android:textColor="#984"
+        android:layout_gravity="center"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否选择该图片?"
+        android:textColor="#586"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/pop_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认" />
+        <Button
+            android:id="@+id/pop_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预览"/>
+        <Button
+            android:id="@+id/pop_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"/>
+
+    </LinearLayout>
+
+</LinearLayout>

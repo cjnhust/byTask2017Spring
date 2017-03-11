@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Task_one:"
+        android:textColor="#159" />
+
+    <com.example.admin.mytask.MyViewOne
+        android:layout_width="match_parent"
+        android:layout_height="417dp"
+        android:id="@+id/myViewOne"
+        android:layout_weight="0.99" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="边数:  "
+            android:gravity="center"
+            android:layout_weight="0.15" />
+        <EditText
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:selectAllOnFocus="true"
+            android:background="@android:drawable/alert_light_frame"
+            android:layout_weight="0.81" />
+
+        <Button
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            android:onClick="task1_button" />
+    </LinearLayout>
+
+</LinearLayout>

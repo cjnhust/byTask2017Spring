@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Num_n">
+        <attr name="n"
+            format="integer">
+        </attr>
+    </declare-styleable>
+</resources>
